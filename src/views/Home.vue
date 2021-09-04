@@ -1,10 +1,10 @@
 <template>
   <main v-if="!loading">
       <DataTitle  :text="title" :dataDate="dataDate" />
-
+      <CountrySelect @get-country="getCountryData" :countries="countries"/>
       <DataBoxes :stats="stats" />
 
-      <CountrySelect @get-country="getCountryData" :countries="countries"/>
+      
 
       <button 
       @click="clearCountryData"
