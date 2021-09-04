@@ -1,5 +1,5 @@
 # covid-tracker
- Covid-19 Tracker made with vue and tailwind css. It uses the api from covidapapi.com
+ Covid-19 Tracker made with vue and tailwind css. It uses the api from covid19api.com
  
 It is hosted on netlify
 https://covid-19vuetrackerapp.netlify.app/
